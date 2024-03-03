@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ruftech.course_work.LoginController">
+   <children>
+      <TextField fx:id="loginLoginField" layoutX="226.0" layoutY="188.0" promptText="Login" />
+      <PasswordField fx:id="loginPasswordField" layoutX="226.0" layoutY="245.0" promptText="Password" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="226.0" layoutY="108.0" prefHeight="52.0" prefWidth="149.0" text="Login" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginButton" alignment="CENTER" layoutX="277.0" layoutY="315.0" mnemonicParsing="false" text="Login" />
+      <Label fx:id="loginWarnings" alignment="CENTER" layoutX="221.0" layoutY="283.0" prefHeight="17.0" prefWidth="157.0" textFill="RED" />
+   </children>
+</Pane>
